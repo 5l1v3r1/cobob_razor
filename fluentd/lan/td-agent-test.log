@@ -1,0 +1,20 @@
+#设备信息
+curl -X POST -d 'json={"serviceversion":"","name":"","version":"1.0","appId":"131231232","platform":"","osversion":"","osaddtional":"","language":"","resolution":"","ismobiledevice":"","devicename":"","deviceid":"123123123","defaultbrowser":"","javasupport":"","flashversion":"","modulename":"","imei":"","imsi":"","salt":"","havegps":"","havebt":"","havewifi":"","havegravity":"","wifimac":"","latitude":"","longitude":"","date":"2015-12-31 11:42:00","clientip":"","productkey":"34141433","service_supplier":"","country":"","region":"","city":"","street":"","streetno":"","postcode":"","network":"","isjailbroken":"","useridentifier":""}' "http://192.168.80.154:8888/razor_clientdata"
+
+#安装游戏
+curl -X POST -d 'json={"install_date":"2015-12-30","chId":"1","version":"1.0","userId":"1","productkey":"123123123123","deviceid":"123213213123","install_time":"2015-12-30 19:15:00"}' "http://192.168.80.154:8888/razor_install"
+
+#用户注册
+curl -X POST -d 'json={"register_date":"2015-12-30","chId":"1","appId":"123456","version":"1.0","obligate1":"","obligate2":"","obligate3":"","obligate4":"","userId":"1","productkey":"123123123123","deviceid":"123213213123","register_time":"2015-12-30 19:15:00"}' "http://192.168.80.154:8888/razor_register"
+
+#玩家角色创建
+curl -X POST -d 'json={"create_role_date":"2015-12-30","chId":"1","subSrvId":"","srvId":"1","appId":"123456","version":"1.0","obligate1":"","obligate2":"","obligate3":"","obligate4":"","obligate5":"","obligate6":"","userId":"1","productkey":"123123123123","deviceid":"123213213123","create_role_time":"2015-12-30 19:15:00","roleId":"erqrqer333","roleName":"王国庆","roleLevel":"1","roleSex":"1","roleVip":"1","goldCoin":"123","sliverCoin":"123"}' "http://192.168.80.154:8888/razor_createrole"
+
+#登录
+curl -X POST -d 'json={"login_date":"2015-12-30","chId":"1","subSrvId":"","srvId":"1","appId":"123456","version":"1.0","type":"1.0","offlineSettleTime":"1.0","obligate1":"","obligate2":"","obligate3":"","obligate4":"","userId":"1","roleId":"erqrqer333","roleLevel":"1","roleVip":"1","goldCoin":"123","sliverCoin":"123","productkey":"123123123123","login_time":"2015-12-30 19:15:00","deviceid":"123213213123","ip":"8.8.8.8"}' "http://192.168.80.154:8888/razor_login"
+
+#支付
+curl -X POST -d 'json={"pay_date":"2015-12-30","chId":"1","subSrvId":"","srvId":"1","version":"1.0","type":"1.0","offlineSettleTime":"1.0","obligate1":"","obligate2":"","obligate3":"","obligate4":"","userId":"1","productkey":"123123123123","deviceid":"1","pay_time":"2015-12-30 19:15:00","roleId":"1324143341","roleName":"erqrqer333","roleLevel":"1","roleVip":"1","goldCoin":"123","sliverCoin":"123","pay_unit":"rmb","pay_type":"1","pay_amount":"123","coinAmount":"123123","orderId":"4545234546234545"}' "http://192.168.80.154:8888/razor_pay"
+
+#实时在线
+curl -X POST -d 'json={"count_date":"2015-12-30","chId":"1","subSrvId":"1","srvId":"1","appId":"32413424","version":"1.0","count_time":"2015-12-30 19:15:00","onlineusers":"1.0","productkey":"123123123123"}' "http://192.168.80.154:8888/razor_realtimeonlineusers"
