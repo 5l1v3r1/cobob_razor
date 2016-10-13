@@ -3,10 +3,10 @@ Cobub Razor
 =============
 
 ### 架构图
-![](http://7xtlfa.com1.z0.glb.clouddn.com/razor.png)
+<img src="http://7xtlfa.com1.z0.glb.clouddn.com/razor.png?imageView2/2/w/2560/h/1600/q/100/format/png" width="800" height="600" />
 
 ### 首页
-![](http://7xtlfa.com1.z0.glb.clouddn.com/razor01.png)
+<img src="http://7xtlfa.com1.z0.glb.clouddn.com/razor01.png?imageView2/2/w/2560/h/1600/q/100/format/png" width="800" height="600" />
 
 ### 报告
-![](http://7xtlfa.com1.z0.glb.clouddn.com/razor02.png)
+<img src="http://7xtlfa.com1.z0.glb.clouddn.com/razor02.png?imageView2/2/w/2560/h/1600/q/100/format/png" width="800" height="600" />
