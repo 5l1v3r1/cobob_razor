@@ -775,6 +775,7 @@ class ServerModel extends CI_Model
     {
         $this->db->from($this->db->dbprefix('server'));
         $this->db->where('server_id', $server_id);
+        $this->db->where('active', 1);
         $query = $this->db->get();
         if ($query->num_rows() > 0) {
                 return $query->row()->server_name;

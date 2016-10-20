@@ -135,6 +135,7 @@ class ChannelModel extends CI_Model
 	{
 		$this->db->from($this->db->dbprefix('channel'));
 		$this->db->where('channel_id', $channel_id);
+		$this->db->where('active', 1);
 		$query = $this->db->get();
 		if ($query->num_rows() > 0) {
 				return $query->row()->channel_name;
